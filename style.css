@@ -68,22 +68,6 @@ header{
   aspect-ratio: 40/6;
   border-radius: 6px 20px;
 }
-@keyframes slidein{
-  from{
-    transform: translateX(-100%);
-  }
-  to{
-    transform: translateX(0%);
-  }
-}
-.text-2{
-  animation-name: slidein;
-  animation-duration: 3s;
-  animation-delay: 0s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
-  animation-fill-mode: reverse;
-}
 .text-3{
   background: #7557F2; 
   text-align: center;
@@ -94,20 +78,6 @@ header{
   padding: 10px;
   aspect-ratio: 40/6;
   border-radius: 6px 20px;
-}
-@keyframes slideright{
-  from{
-    transform: translateX(100%);
-  }
-  to{
-    transform: translateX(-0%);
-  }
-}
-.text-3{
-  animation-name: slideright;
-  animation-duration: 3s;
-  animation-delay: 0s;
-  -o-animation-timing-function: both;
 }
 .text-4{
   background: #7557F2; 
@@ -119,20 +89,6 @@ header{
   padding: 10px;
   aspect-ratio: 40/6;
   border-radius: 6px 20px;
-}
-@keyframes slideup{
-  from{
-    transform: translateY(100%);
-  }
-  to{
-    transform: translateX(-0%);
-  }
-}
-.section1 h5{
-  animation-name: slideup;
-  animation-duration: 3s;
-  animation-delay: 0s;
-  -o-animation-timing-function: both;
 }
 .skills{
   position: relative;
@@ -156,20 +112,6 @@ header{
   color: #fff; 
   font-size: 1em;
   font-weight: 400;
-}
-@keyframes slidedown{
-  from{
-    transform: translateY(100%);
-  }
-  to{
-    transform: translateX(-0%);
-  }
-}
-.section1,skills{
-  animation-name: slidedown;
-  animation-duration: 3s;
-  animation-delay: 0s;
-  -o-animation-timing-function: both;
 }
 .skill1{
   position: relative;
