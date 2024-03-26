@@ -289,14 +289,15 @@ header{
   position: relative;
   color: #fff;
   font-size: 4em;
-  margin: 10px 140px;
+  top: 19px;
+  left: 140px;
 }
 @keyframes bounce{
   from{
     transform: translateY(-50%);
   }
   to{
-    transform: translateY(15%);
+    transform: translateY(0%);
   }
 }
 #arrow{
@@ -311,7 +312,8 @@ header{
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px 30px;
-  margin: 100px 85px;
+  top: 30px;
+  left: 23px;
   border: 1px solid #fff;
   border-radius: 20px;
   transition: 1s ease-in;
@@ -334,8 +336,7 @@ header{
 }
 .icon{
   position: relative;
-  left: 15px;
-  top: 25px;
+  margin: 10px 15px;
 }
 
 i{
@@ -358,11 +359,12 @@ i{
 }
 .num{
   position: relative;
+  display: flex;
+  gap: 4px;
   color: #fff;
   font-size: 1em;
   font-weight: 300;
-  top: 35px;
-  left: 120px;
+  margin: 30px 30px;
 }
 .copy{
   color: #fff;
@@ -370,6 +372,6 @@ i{
   font-weight: 400;
   text-transform: uppercase;
   position: absolute;
-  bottom: 10px;
-  padding: 0px 130px;
+  bottom: 0px;
+  left: 130px;
 }
