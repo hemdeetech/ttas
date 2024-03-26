@@ -360,11 +360,11 @@ i{
 .num{
   position: relative;
   display: flex;
-  gap: 4px;
+  gap: 2px;
   color: #fff;
   font-size: 1em;
   font-weight: 300;
-  margin: 30px 30px;
+  margin: 30px 40px;
 }
 .copy{
   color: #fff;
