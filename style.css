@@ -359,8 +359,6 @@ i{
 }
 .num{
   position: relative;
-  display: flex;
-  gap: 2px;
   color: #fff;
   font-size: 1em;
   font-weight: 300;
