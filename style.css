@@ -373,3 +373,15 @@ i{
   bottom: 0px;
   left: 130px;
 }
+.arrow{
+  position: fixed;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  max-width: 100px;
+  width: 30px;
+  height: 30px;
+  top:500px;
+  left: 330px;
+  cursor: pointer;
+}
